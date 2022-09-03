@@ -1,0 +1,114 @@
+* {
+    margin: 0 auto;
+}
+
+.header {
+    background: #4A4F56;
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    color: #FF8984;
+    width: 793px;
+    height: 82px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    padding: 19px 0 4px 0;
+}
+
+.container {
+    display: block;
+    max-width: 100%;
+    text-align: left;
+    width: 793px;
+    height: 507px;
+    background: #3B3F45;
+}
+
+.class1 {
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.form1 {
+    width: 534px;
+    height: 45px;
+    background: #88839E;
+    padding: 20px 0; 
+}
+
+.form2 {
+    width: 534px;
+    height: 45px;
+    background: #7A7593;
+    padding: 20px 0;
+}
+
+.form3 {
+    width: 534px;
+    height: 45px;
+    background: #88839E;
+    padding: 20px 0;
+}
+
+.form4 {
+    width: 534px;
+    height: 45px;
+    background: #625E77;
+    padding: 20px 0;
+    border: 3px solid #FFFFFF
+}
+
+.form5 {
+    width: 534px;
+    height: 45px;
+    background: #88839E;
+    padding: 20px 0;
+}
+
+.form6 {
+    width: 534px;
+    height: 45px;
+    background: #7A7593;
+    padding: 20px 0;
+}
+
+input {
+    width: 19px;
+    height: 19px;
+    padding: 12px;
+}
+
+.checkbox1 {
+    height: 16px;
+    border-radius: nullpx;
+}
+
+input[type=checkbox]:checked +label {
+    text-decoration: line-through;
+    color: #9B96AC;
+
+}
+
+label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.last-li {
+    width: 534px;
+    height: 45px;
+    background: #7A7593;
+    padding: 20px 0;
+}
+
+.form1::after {
+    content: sddddd;
+}
